@@ -1,3 +1,4 @@
+
 *,*:before,*:after {
     box-sizing: border-box;
 }
@@ -12,7 +13,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #9b9b9b;
+    color: black;
     line-height: 3.8;
     font-size: 80px;
     text-transform: uppercase;
@@ -41,8 +42,8 @@ footer {
 }
 
 h2 {
-    font-weight: 600px;
-    font-size: 17px;
+    font-weight: 150px;
+    font-size: 1.3rem; 
 }
 
 .footer ul {
@@ -85,14 +86,17 @@ h2 {
 
 .box a {
     color: white; 
-    /* background-color: #999; */
+    font-size: 1.1rem;
 }
 
+.box a:hover {
+    color: blue; 
+}
 
 .footer-bottom {
     text-align: center;
     color: white;
-    padding-top: 50px;
+    font-size: 1.3rem; 
 }
 
 
@@ -102,11 +106,12 @@ h2 {
 }
 
 .socials a {
-    background : #364a62;
+    background : red;
     width: 40px;
     height:  40px;
     display: inline-block;
     margin-right: 10px;
+    border-radius: 10px; 
 }
 
 
