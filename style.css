@@ -1,0 +1,28 @@
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    margin: 0;
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9b9b9b;
+    line-height: 3.8;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: black;
+}
