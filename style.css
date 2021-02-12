@@ -26,3 +26,35 @@ footer {
     color: #fff;
     background-color: black;
 }
+
+
+.footer > * {
+    flex: 1 100%;
+}
+
+.footer-left {
+    margin: 0 1.25em 2em 0;
+}
+
+.footer-left img {
+    width: 13%;
+}
+
+h2 {
+    font-weight: 600px;
+    font-size: 17px;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.footer li {
+    line-height: 2em;
+}
+
+.footer a {
+    text-decoration: none;
+}
