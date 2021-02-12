@@ -37,7 +37,7 @@ footer {
 }
 
 .footer-left img {
-    width: 13%;
+    width: 30%;
 }
 
 h2 {
@@ -90,14 +90,14 @@ h2 {
 
 .footer-bottom {
     text-align: center;
-    color: #999;
+    color: white;
     padding-top: 50px;
 }
 
 
 .footer-left p {
     padding-right: 20%;
-    color: #999;
+    color: white;
 }
 
 .socials a {
@@ -113,4 +113,29 @@ h2 {
     color: #e7f2f4;
     padding: 10px 12px;
     font-size: 20px;
+}
+
+
+@media screen and (min-width : 600px) {
+    .footer-right > * {
+        flex: 1;
+    }
+
+    .footer-left {
+        flex: 1 0px;
+    }
+
+    .footer-right{
+        flex: 2 0px; 
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .footer {
+        padding: 15px;
+    }
+    main {
+        font-size: 55px;
+    }
 }
